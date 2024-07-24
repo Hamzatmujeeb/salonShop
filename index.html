@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Salon</title>
+    <link rel="stylesheet" href="Css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    
+   <!-- Header Section -->
+   <header>
+    <div class="logo">
+        <h3>Salon</h3>
+    </div>
+    <nav class="nav-desktop">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="header-button">
+        <div class="btn"><a href="#">RESERVATION</a></div>
+    </div>
+    <div class="menu-icon" onclick="toggleMenu()">
+        <i class="fas fa-bars"></i>
+    </div>
+    <nav class="nav-mobile" id="mobile-menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+   <!-- Jumbo Section -->
+   <section>
+       <div class="jumbo-section">
+           <div class="jumbo-section-column">
+               <div class="hedind-wrapper">
+                   <h2 class="colum-heading">Always make<br>room for <span>"beauty"</span><br>in your life</h2>
+                   <p class="column-paragraph">
+                       Step into a world self-care and confidence. Our salon<br>
+                       booking site simplifies your beauty routine. Browse, book,<br>
+                       and be beautiful effortlessly. Your best self awaits.
+                   </p>
+                   <div class="btn-container">
+                       <div class="btn"><a href="#">Reservation</a></div>
+                       <div class="btn services"><a href="#">Our Services</a></div>
+                   </div>
+               </div>
+           </div>
+
+           <div class="jumbo-section-column">
+               <img src="images/pexels-photo-705255.jpeg" alt="Salon interior">
+           </div>
+       </div>
+   </section>
+
+   <!-- Search Section -->
+   <section>
+       <div class="search-section">
+           <div class="search-find-container">
+               <h3>Search & Find Your Favorite Style</h3>
+               <div class="search-find-container-btn">
+                   <div class="search-btn">Search Services or Salon<i class="fas fa-search"></i></div>
+                   <div class="search-btn">Enter Your City <i class="fas fa-city"></i></div>
+                   <div class="search-btn">Select Date <i class="fas fa-calendar-alt"></i></div>
+                   <div class="circle-icon"><i class="fas fa-search"></i></div>
+               </div>
+           </div>
+
+           <div class="search-heading">
+               <h2>Popular Services</h2>
+           </div>
+
+           <div class="popular-products">
+               <div class="popular-column">
+                   <img src="images/istockphoto-1153438285-612x612.jpg" alt="Haircut service">
+                   <p>Haircuts and styling</p>
+               </div>
+               <div class="popular-column">
+                   <img src="images/istockphoto-1339268647-612x612.jpg" alt="Hair coloring">
+                   <p>Haircuts Colouring</p>
+               </div>
+               <div class="popular-column">
+                   <img src="images/pexels-photo-3992863.jpeg" alt="Hair treatment">
+                   <p>Haircuts and Treatments</p>
+               </div>
+               <div class="popular-column">
+                   <img src="images/pexels-photo-897262.jpeg" alt="Hair removal">
+                   <p>Haircuts and Removal</p>
+               </div>
+           </div>
+           <div class="popular-btn"><a href="#">View All Services</a></div>
+
+           <!-- Featured Section -->
+           <div class="features">
+               <div class="features-column">
+                   <h3>Featured</h3>
+                   <h1>Our Featured Salon This<br>Week</h1>
+                   <p>Discover top-notch stylists, trending treatments, and<br>
+                       exclusive offers. Elevate your beauty experience with our<br>
+                       weekly salon spotlight.
+                   </p>
+                   <div class="features-column-img">
+                       <img src="images/pexels-photo-5473177.jpeg" alt="Featured salon 1">
+                       <img src="images/pexels-photo-6599031.jpeg" alt="Featured salon 2">
+                       <img src="images/istockphoto-1414226311-170667a.webp" alt="Featured salon 3">
+                   </div>
+                   <div class="btn"><a href="#">See all Services</a></div>
+               </div>
+
+               <div class="features-column features-column-bg">
+                   <img src="images/istockphoto-1339268647-612x612 (1).jpg" alt="Salon background">
+               </div>
+           </div>
+       </div>
+   </section>
+
+   <!-- Our Product Section -->
+   <section>
+       <div class="our-product-section">
+           <h2 class="product-heading">Our Product</h2>
+           <div class="our-product-img">
+               <div class="our-product-img-column">
+                   <div class="img-background">
+                       <img src="images/mujeeb3.png" alt="Face Cream">
+                   </div>
+                   <h4>Face Cream</h4>
+                   <p><strike>LKR 3,000.00</strike>  LKR 2,000.00</p>
+               </div>
+               
+               <div class="our-product-img-column">
+                   <div class="img-background">
+                       <img src="images/mujeeb1.png" alt="Face Scrub">
+                   </div>
+                   <h4>Face Scrub</h4>
+                   <p><strike>LKR 3,000.00</strike>  LKR 2,000.00</p>
+               </div>
+               
+               <div class="our-product-img-column">
+                   <div class="img-background">
+                       <img src="images/mujeeb7.png" alt="Hand Cream">
+                   </div>
+                   <h4>Hand Cream</h4>
+                   <p><strike>LKR 3,000.00</strike>  LKR 2,000.00</p>
+               </div>
+           </div>
+           <div class="our-product-img">
+               <div class="our-product-img-column">
+                   <div class="img-background">
+                       <img src="images/mujeeb3.png" alt="Day Facial Tonic">
+                   </div>
+                   <h4>Day Facial Tonic</h4>
+                   <p><strike>LKR 3,000.00</strike>  LKR 2,000.00</p>
+               </div>
+               
+               <div class="our-product-img-column">
+                   <div class="img-background">
+                       <img src="images/mujeeb1.png" alt="Facial Cleaner">
+                   </div>
+                   <h4>Facial Cleaner</h4>
+                   <p><strike>LKR 3,000.00</strike>  LKR 2,000.00</p>
+               </div>
+               
+               <div class="our-product-img-column">
+                   <div class="img-background">
+                       <img src="images/mujeeb7.png" alt="Eye Cream">
+                   </div>
+                   <h4>Eye Cream</h4>
+                   <p><strike>LKR 3,000.00</strike>  LKR 2,000.00</p>
+               </div>
+           </div>
+           <div class="btn-all"><a href="#">View All Products</a></div>
+       </div>
+   </section>
+
+   <!-- Salons With Us Section -->
+   <section>
+       <div class="salon-with-us">
+           <h1 class="salon-header">Salons With Us</h1>
+           <div class="salon-desc-btns">
+               <div class="desc-btn"><a href="#"><i class="fas fa-scissors"></i> ELTE</a></div>
+               <div class="desc-btn"><a href="#"><i class="fas fa-envelope"></i> SendGrid</a></div>
+               <div class="desc-btn"><a href="#"><i class="fas fa-chart-line"></i> Segment</a></div>
+               <div class="desc-btn"><a href="#"><i class="fas fa-code"></i> Skaffolder</a></div>
+               <div class="desc-btn"><a href="#"><i class="fas fa-sun"></i> Solarwinds</a></div>
+               <div class="desc-btn"><a href="#"><i class="fas fa-wind"></i> Tailh</a></div>
+           </div>
+           <div class="salon-img">
+               <div class="salon-img-column"><img src="images/pexels-photo-696287.jpeg" alt="Salon 1"></div>
+               <div class="salon-img-column"><img src="images/istockphoto-692999494-612x612.jpg" alt="Salon 2"></div>
+               <div class="salon-img-column"><img src="images/pexels-photo-7518707.jpeg" alt="Salon 3"></div>
+           </div>
+
+           <div class="salon-btn"><a href="#">Salons all Salons</a></div>
+       </div>
+   </section>
+    
+   <!-- Footer Section -->
+   <footer>
+       <h3 class="footer-subscribe">Subscribe</h3>
+       <h2 class="footer-heading">Ready To Glow? Subscribe To Us</h2>
+       <p class="first">Join our beauty community and unlock a world of glowing benefits. Subscribe today for exclusive<br> updates, beauty tips, and special offers. Your path to radiant beauty starts here.</p>
+       <div class="input-box">
+           <input type="email" placeholder="Enter Your email address">
+           <button>Subscribe</button>
+       </div>
+       <hr class="footer-hr">
+       <div class="footer-menu">
+           <div class="footer-logo">
+               <h1>SALON</h1>
+           </div>
+           <div class="pages">
+               <p class="pages-menu-heading"><a href="#">Pages</a></p>
+               <ul class="pages-menu">
+                   <li><a href="#">Products</a></li>
+                   <li><a href="#">Services</a></li>
+                   <li><a href="#">Bridal</a></li>
+                   <li><a href="#">About Us</a></li>
+               </ul>
+           </div>
+           <div class="contact">
+               <p class="contact-menu-heading"><a href="#">Contact Us</a></p>
+               <ul class="contact-menu">
+                   <li><a href="#">Have questions or suggestions</a></li>
+                   <li class="info"><a href="mailto:info@salon.com">info@salon.com</a></li>
+                   <li><a href="#">Need assistance? Give us a call</a></li>
+                   <li class="info"><a href="tel:+940111234567">+94 011 123 4567</a></li>
+               </ul>
+           </div>
+           <div class="social-media">
+               <p class="social-menu-heading"><a href="#">Social Media</a></p>
+               <div class="contact-social">
+                   <i class="fab fa-facebook"></i>
+                   <i class="fab fa-instagram"></i>
+                   <i class="fab fa-twitter"></i>
+                   <i class="fab fa-pinterest"></i>
+               </div>
+           </div>
+       </div>
+   </footer>
+
+   <!-- Copyright Section -->
+   <div class="copyright">
+       <p>&copy; 2024 Salon. All rights reserved. &mdash; Hamzat Mujeeb</p>
+   </div>
+    
+   <script src="js/main.js"></script>
+</body>
+</html>
